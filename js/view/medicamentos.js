@@ -131,7 +131,7 @@ const producto = [{
 
 }, {
     id: 23,
-    image: 'images/dolofin.webpg',
+    image: 'images/dolofin.webp',
     title: ' Dolofin',
 
 }, {
@@ -146,37 +146,32 @@ const producto = [{
     title: 'Salva-dol',
 
 },
+
 {
     id: 26,
-    image: 'images/meno.jpeg',
-    title: 'Menovid',
-
-},
-{
-    id: 27,
     image: 'images/com.jpg',
     title: 'Complejo B',
 
 },
 {
-    id: 28,
+    id: 27,
     image: 'images/noval.webp',
     title: 'Novalgina',
 
 },
 {
-    id: 29,
+    id: 28,
     image: 'images/tetra.jpg',
     title: 'Tetraciclina',
 
 }, {
-    id: 30,
+    id: 29,
     image: 'images/anti.png',
     title: 'Antifuego - Labial',
 
 },
 {
-    id: 31,
+    id: 30,
     image: 'images/cofal.webp',
     title: 'cofal',
 
@@ -184,38 +179,38 @@ const producto = [{
 
 ]
 const urlMappings = {
-    0: 'pagina-acetaminofen.html',
-    1: 'pagina-alcaseltzer.html',
-    2: 'pagina-amoxicilina.html',
-    3: 'pagina-acetaminofen.html',
-    4: 'pagina-alcaseltzer.html',
-    5: 'pagina-amoxicilina.html',
-    6: 'pagina-acetaminofen.html',
-    7: 'pagina-alcaseltzer.html',
-    8: 'pagina-amoxicilina.html',
-    9: 'pagina-acetaminofen.html',
-    10: 'pagina-alcaseltzer.html',
-    11: 'pagina-amoxicilina.html',
-    12: 'pagina-acetaminofen.html',
-    13: 'pagina-alcaseltzer.html',
-    14: 'pagina-amoxicilina.html',
-    15: 'pagina-acetaminofen.html',
-    16: 'pagina-alcaseltzer.html',
-    17: 'pagina-amoxicilina.html',
-    18: 'pagina-acetaminofen.html',
-    19: 'pagina-alcaseltzer.html',
-    20: 'pagina-amoxicilina.html',
-    21: 'pagina-acetaminofen.html',
-    22: 'pagina-alcaseltzer.html',
-    23: 'pagina-amoxicilina.html',
-    24: 'pagina-acetaminofen.html',
-    25: 'pagina-alcaseltzer.html',
-    26: 'pagina-amoxicilina.html',
-    27: 'pagina-acetaminofen.html',
-    28: 'pagina-alcaseltzer.html',
-    29: 'pagina-amoxicilina.html',
-    30: 'pagina-acetaminofen.html',
-    31: 'pagina-acetaminofen.html',
+
+    0: 'medicina/acetaminofen.html',
+    1: 'medicina/alcaseltzer.html',
+    2: 'medicina/amoxicilina.html',
+    3: 'medicina/panadol.html',
+    4: 'medicina/sudagrip.html',
+    5: 'medicina/neurobion.html',
+    6: 'medicina/dorival.html',
+    7: 'medicina/ibuprofeno.html',
+    8: 'medicina/naproxeno.html',
+    9: 'medicina/peptobismol.html',
+    10: 'medicina/lansoprazol.html',
+    11: 'medicina/diloxanida.html',
+    12: 'medicina/parectamol.html',
+    13: 'medicina/virogrip.html',
+    14: 'medicina/metocarbamol.html',
+    15: 'medicina/aspirina.html',
+    16: 'medicina/mariguanol.html',
+    17: 'medicina/simeticona.html',
+    18: 'medicina/pancreatina.html',
+    19: 'medicina/ambroxol.html',
+    20: 'medicina/loratadina.html',
+    21: 'medicina/desloratadina.html',
+    22: 'medicina/nacetilcisteina.html',
+    23: 'medicina/dolofin.html',
+    24: 'medicina/tylenol.html',
+    25: 'medicina/salvadol.html',
+    26: 'medicina/complejob.html',
+    27: 'medicina/novalgina.html',
+    28: 'medicina/tetraciclina.html',
+    29: 'medicina/antifuego.html',
+    30: 'medicina/cofal.html',
     // Agrega más entradas para cada id de medicamento
 };
 const categorias = [...new Set(producto.map((item) => { return item }))]
